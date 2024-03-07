@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+			name="id"
+			type="hidden"
+			/>			
+			
+		<field
+			name="name"
+			type="text"
+			label="name"
+			required="true"
+			/>	
+			
+
+		<field
+			name="published"
+			type="radio"
+			label="publish"
+			class="btn-group btn-group-yesno"
+			default="1"
+			>
+			<option value="0">disable</option>
+			<option value="1">enable</option>
+		</field>			
+				
+	</fieldset>
+</form>

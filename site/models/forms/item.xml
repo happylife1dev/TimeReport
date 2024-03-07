@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="default">
+		<field
+			name="id"
+			type="hidden"
+			/>		
+
+		<field
+			name="assignment_id"
+			type="assignments"
+			label="Assignment"
+			required="true"
+			/>	
+			
+		<field
+			name="date"
+			type="calendar"
+			label="Date"
+			required="true"
+			/>	
+
+		<field
+			name="time_so"
+			type="text"
+			label="Time S.O."
+			required="true"
+			class="time"
+			/>	
+
+		<field
+			name="time_od"
+			type="text"
+			label="Time O.D."
+			required="true"
+			class="time"
+			/>
+
+		<field
+			name="hours"
+			type="text"
+			label="Hours"
+			readonly="true"
+			class="time"
+			/>			
+			
+
+		<field
+			name="address"
+			type="text"
+			label="Location or Address"
+			required="false"
+			/>
+
+		<field
+			name="details"
+			type="text"
+			label="Details or Comments"
+			required="false"
+			/>
+			
+		<field
+			name="user_id"
+			type="hidden"
+			/>				
+			
+	</fieldset>
+</form>
